@@ -1,6 +1,7 @@
 import React from "react";
 import { FaWhatsapp } from "react-icons/fa";
 import { motion } from "framer-motion";
+import logo from './logo/LL.jpg';
 
 export default function DairyRestaurantWebsite() {
   return (
@@ -8,8 +9,8 @@ export default function DairyRestaurantWebsite() {
       {/* Header */}
       <header style={{ backgroundColor: "#000", color: "#fff", padding: "1rem 2rem", display: "flex", justifyContent: "space-between", alignItems: "center", boxShadow: "0px 4px 6px rgba(0, 0, 0, 0.1)" }}>
         <div style={{ display: "flex", alignItems: "center" }}>
-          <img src="/logo.png" alt="Dairy Delights Logo" style={{ height: "50px", marginRight: "1rem" }} />
-          <h1 style={{ fontSize: "1.5rem", fontWeight: "bold" }}>Dairy Delights</h1>
+          <img src={logo} alt="Dairy Delights Logo" style={{ height: "50px", marginRight: "1rem" }} />
+          <h1 style={{ fontSize: "1.5rem", fontWeight: "bold" }}>מעדני שנאל</h1>
         </div>
         <a href="https://wa.me/123456789" target="_blank" rel="noopener noreferrer" style={{ backgroundColor: "#25D366", color: "#fff", padding: "0.5rem 1rem", borderRadius: "5px", textDecoration: "none", display: "flex", alignItems: "center" }}>
           <FaWhatsapp size={20} style={{ marginRight: "0.5rem" }} /> WhatsApp
@@ -17,7 +18,7 @@ export default function DairyRestaurantWebsite() {
       </header>
 
       {/* Hero Section */}
-      <section style={{ textAlign: "center", padding: "4rem 1rem", backgroundColor: "#00bcd4", color: "#fff" }}>
+      <section style={{ textAlign: "center", padding: "4rem 1rem", backgroundImage: `url(${logo})`, color: "#fff" ,  backgroundSize: 'cover', backgroundPosition: 'center',  backgroundRepeat: 'no-repeat' , width:"98%" , backgroundPosition: 'right 20px center'}}>
         <motion.h2 style={{ fontSize: "2.5rem", fontWeight: "bold" }} initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1 }}>
           Fresh & Delicious Dairy Cuisine
         </motion.h2>
