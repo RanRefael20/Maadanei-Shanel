@@ -2,10 +2,10 @@ import React from "react";
 import { FaWhatsapp } from "react-icons/fa";
 import { motion } from "framer-motion";
 import logo from './logo/LL.jpg';
-
+//dcdc
 export default function DairyRestaurantWebsite() {
   return (
-    <div style={{ minHeight: "100vh", backgroundColor: "#ffffff", color: "#333" }}>
+    <div style={{ minHeight: "100vh", backgroundColor: "#ffffff", color: "#333" }}> 
       {/* Header */}
       <header style={{ backgroundColor: "#000", color: "#fff", padding: "1rem 2rem", display: "flex", justifyContent: "space-between", alignItems: "center", boxShadow: "0px 4px 6px rgba(0, 0, 0, 0.1)" }}>
         <div style={{ display: "flex", alignItems: "center" }}>
