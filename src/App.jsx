@@ -13,7 +13,7 @@ export default function DairyRestaurantWebsite() {
           <img src={logo} alt="Dairy Delights Logo" style={{ height: "50px", marginRight: "1rem" }} />
           <h1 style={{ fontSize: "1.5rem", fontWeight: "bold" }}>מעדני שנאל</h1>
         </div>
-        <a href="https://wa.me/123456789" target="_blank" rel="noopener noreferrer" style={{ backgroundColor: "#25D366", color: "#fff", padding: "0.5rem 1rem", borderRadius: "5px", textDecoration: "none", display: "flex", alignItems: "center" }}>
+        <a href="https://wa.me/c/972503225482" target="_blank" rel="noopener noreferrer" style={{ backgroundColor: "#25D366", color: "#fff", padding: "0.5rem 1rem", borderRadius: "5px", textDecoration: "none", display: "flex", alignItems: "center" }}>
           <FaWhatsapp size={20} style={{ marginRight: "0.5rem" }} /> WhatsApp
         </a>
       </header>
