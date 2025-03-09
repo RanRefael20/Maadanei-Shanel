@@ -2,6 +2,7 @@ import React from "react";
 import { FaWhatsapp } from "react-icons/fa";
 import { motion } from "framer-motion";
 import logo from './logo/LL.jpg';
+import breads from './photos/פרוסות.jpg';
 //dcdc
 export default function DairyRestaurantWebsite() {
   return (
@@ -25,11 +26,15 @@ export default function DairyRestaurantWebsite() {
         <p style={{ marginTop: "1rem", fontSize: "1.2rem" }}>Quiches, Pasta, Desserts, Breads & More</p>
       </section>
 
+
+
+
       {/* Menu Section */}
-      <section style={{ padding: "3rem 2rem", display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))", gap: "1.5rem" }}>
+      <section style={{ padding: "3rem 2rem", display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))", gap: "1.5rem"  }}>
         {["Quiches", "Pasta", "Desserts", "Salads", "Breads", "Catering"].map((item, index) => (
-          <motion.div key={index} whileHover={{ scale: 1.05 }} style={{ boxShadow: "0px 4px 6px rgba(0, 0, 0, 0.1)", padding: "1.5rem", textAlign: "center", borderRadius: "8px", backgroundColor: "#fff" }}>
-            <h3 style={{ fontSize: "1.5rem", fontWeight: "600" }}>{item}</h3>
+          <motion.div key={index} whileHover={{ scale: 1.05 }} style={{ boxShadow: "0px 4px 6px rgba(0, 0, 0, 0.1)", padding: "1.5rem", textAlign: "center", borderRadius: "8px", backgroundColor: "#fff" , backgroundImage: `url(${breads})` ,  backgroundSize: "cover",
+            backgroundPosition: "center"}}>
+            <h3 style={{ fontSize: "1.5rem", fontWeight: "600"  }}>{item}</h3>
             <p style={{ color: "#777", marginTop: "0.5rem" }}>Tasty and freshly made</p>
           </motion.div>
         ))}
