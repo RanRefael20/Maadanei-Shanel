@@ -21,7 +21,7 @@ export default function DairyRestaurantWebsite() {
       </header>
 
       {/* Hero Section */}
-      <section style={{ textAlign: "center", padding: "4rem 1rem", backgroundImage: `url(${logo})`, color: "#099900" ,  backgroundSize: 'cover', backgroundPosition: 'center',  backgroundRepeat: 'no-repeat' , width:"98%" , backgroundPosition: 'right 20px center'}}>
+      <section style={{ textAlign: "center", padding: "4rem 1rem", backgroundImage: `url(${logo})`, color: "#099900" ,  backgroundSize: 'cover',   backgroundRepeat: 'no-repeat' , width:"98%" , backgroundPosition: 'right 20px center'}}>
      
         <br></br>
         <br></br>
