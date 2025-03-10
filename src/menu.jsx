@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import breads from '/public/photos/vv.jpg';
 
 const images = {
- "טונה" : '/public/photos/טונה.jpg',
+ "ונה" : '/public/photos/tt.jpg',
  "סלמון": '/public/photos/סלמון.jpg',
  "טורטיות במילוי טונה": '/public/photos/טורטיה.jpg',
 "גבינות ואנטי פסטי": '/public/photos/פטה.jpg',
