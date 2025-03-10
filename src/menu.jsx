@@ -2,16 +2,16 @@ import { motion } from "framer-motion";
 import breads from '/public/photos/vv.jpg';
 
 const images = {
- "ונה" : '/public/photos/tt.jpg',
- "סלמון": '/public/photos/סלמון.jpg',
- "טורטיות במילוי טונה": '/public/photos/טורטיה.jpg',
-"גבינות ואנטי פסטי": '/public/photos/פטה.jpg',
-  פריקסה: '/public/photos/פריקסה.jpg',
-פסטה:'/public/photos/פסטה.jpg',
-  סלט: '/public/photos/סלט2.jpg',
-  "לחמי כוסמין ושיפון 100%": '/public/photos/vv.jpg',
- "מגשי פירות מפנקים": '/public/photos/פירות.jpg',
-  קינוחים: '/public/photos/קינוחים.jpg'
+ "טונה" : '/photos/tt.jpg',
+ "סלמון": '/photos/סלמון.jpg',
+ "טורטיות במילוי טונה": '/photos/טורטיה.jpg',
+"גבינות ואנטי פסטי": '/photos/פטה.jpg',
+  פריקסה: '/photos/פריקסה.jpg',
+פסטה:'/photos/פסטה.jpg',
+  סלט: '/photos/סלט2.jpg',
+  "לחמי כוסמין ושיפון 100%": '/photos/vv.jpg',
+ "מגשי פירות מפנקים": '/photos/פירות.jpg',
+  קינוחים: '/photos/קינוחים.jpg'
  
 };
 
